@@ -1,0 +1,50 @@
+[
+    {
+        "question_en": "What is the capital of France?",
+        "question_np": "फ्रान्सको राजधानी के हो?",
+        "question_image": null,
+        "answer": "Paris",
+        "options": [
+            "Paris",
+            "London",
+            "Berlin",
+            "Rome"
+        ]
+    },
+    {
+        "question_en": "What is the capital of Nepal?",
+        "question_np": "नेपालको राजधानी के हो?",
+        "question_image": null,
+        "answer": "Kathmandu",
+        "options": [
+            "Kathmandu",
+            "London",
+            "Berlin",
+            "Rome"
+        ]
+    },
+    {
+        "question_en": "What is the capital of India?",
+        "question_np": "",
+        "question_image": null,
+        "answer": "New Delhi",
+        "options": [
+            "London",
+            "Berlin",
+            "Rome",
+            "New Delhi"
+        ]
+    },
+    {
+        "question_en": "Which one is correct?",
+        "question_np": "",
+        "question_image": "../images/404.png",
+        "answer": "All of the above",
+        "options": [
+            "All of the above",
+            "None of the above",
+            "Both of the above",
+            "None of the above"
+        ]
+    }
+]

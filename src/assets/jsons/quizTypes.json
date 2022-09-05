@@ -1,0 +1,17 @@
+[
+    {
+        "name": "MCQ",
+        "description": "Choose the correct answer",
+        "image": "https://saylordotorg.github.io/text_six-steps-to-job-search-success/section_12/19a959f358a71de739e4d418466f2e66.jpg"
+    },
+    {
+        "name": "Single Answer",
+        "description": "Input answer",
+        "image": "https://saylordotorg.github.io/text_six-steps-to-job-search-success/section_12/19a959f358a71de739e4d418466f2e66.jpg"
+    },
+    {
+        "name": "Guess",
+        "description": "Guess the answer",
+        "image": "https://saylordotorg.github.io/text_six-steps-to-job-search-success/section_12/19a959f358a71de739e4d418466f2e66.jpg"
+    }
+]
