@@ -9,11 +9,10 @@ import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 export default function QuestionsList() {
   const navigate = useNavigate();
   const { state } = useLocation();
-  const { quizType } = state;
-  console.log(quizType)
+  const { mode } = state;
 
   const handleClick = (e) => {
-    navigate('/singlequestion', { state: { quizType: e.name } })
+    mode === "single" ? navigate('/singlequestion', { state: { question_num: 10 } }) : navigate('/multiplequestions', { state: { question_num: 10 } })
   }
 
   return (
@@ -24,20 +23,11 @@ export default function QuestionsList() {
       </div>
       <Offline>You are currently offline. Limited availability of resources.</Offline>
       <Online>You are currently online. Full access to resources.</Online>
-      <ul>
+      <ul style={{ marginTop: "10vh" }}>
         {questionList && questionList.map((e, index) => {
           return (
             <li key={index} onClick={() => handleClick(e)}>
               <h2>{e.name}</h2>
-              {/* <ul>
-                {e.options.map((e, index) => {
-                  return (
-                    <li key={index}>
-                      <p>{e}</p>
-                    </li>
-                  )
-                })}
-              </ul> */}
             </li>
           )
         })}

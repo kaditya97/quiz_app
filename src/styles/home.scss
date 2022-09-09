@@ -1,21 +1,25 @@
 .title {
     width: 100%;
-    height: 10%;
+    height: 8vh;
     position: fixed;
     top: 0;
     left: 0;
     display: flex;
     justify-content: space-between;
-    background-color: white;
-    .title-text{
-        justify-content: start;
-        text-align: start;
-    }
+    align-items: center;
+    background-color: #FAD9A1;
 }
 
+.title-text{
+    display: flex;
+    margin-left: 10px;
+}
 .userinfo {
+    margin-right: 10px;
     display: flex;
     flex-direction: row;
+    justify-content: end;
+    align-items: center;
 }
 
 .box {
@@ -24,12 +28,16 @@
 }
 
 .grid {
-    background-color: aqua;
     justify-content: center;
     align-items: center;
     margin-bottom: 2px;
+    color: #FFD8A9;
 }
 
 .card {
     cursor: pointer;
+}
+
+.card-content {
+    background-color: #FAD9A1;
 }

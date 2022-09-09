@@ -1,9 +1,8 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import Dialog from '@mui/material/Dialog';
-import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
-import { Button, List, ListItem, ListItemText } from '@mui/material';
+import { Button, List, ListItem } from '@mui/material';
 import SettingsIcon from '@mui/icons-material/Settings';
 import HelpIcon from '@mui/icons-material/Help';
 import InfoIcon from '@mui/icons-material/Info';
@@ -19,19 +18,16 @@ export default function SettingDialog({ open, setOpen }) {
         <DialogContent>
           <List>
             <ListItem button onClick={() => navigate("/settings")}>
-              <SettingsIcon /> <ListItemText primary="Setting" />
+              <Button variant='text' size="large" startIcon={<SettingsIcon />}>Settings</Button>
             </ListItem>
             <ListItem button onClick={() => navigate("/about")}>
-              <InfoIcon /> <ListItemText primary="About" />
+              <Button variant='text' size="large" startIcon={<InfoIcon />}>About</Button>
             </ListItem>
             <ListItem button onClick={() => navigate("/help")}>
-              <HelpIcon /> <ListItemText primary="Help" />
+              <Button variant='text' size="large" startIcon={<HelpIcon />}>Help</Button>
             </ListItem>
           </List>
         </DialogContent>
-        <DialogActions>
-          <Button variant="contained" onClick={handleClose}>Close</Button>
-        </DialogActions>
       </Dialog>
     </div>
   )
