@@ -1,10 +1,26 @@
 .title {
     width: 100%;
     height: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
     .title-text{
-        justify-content: center;
-        text-align: center;
+        justify-content: start;
+        text-align: start;
     }
+}
+
+.userinfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
 }
 
 .grid {
@@ -12,4 +28,8 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 2px;
+}
+
+.card {
+    cursor: pointer;
 }

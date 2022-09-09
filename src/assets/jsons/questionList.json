@@ -1,0 +1,102 @@
+[
+    {
+        "id": "1",
+        "name": "Survey",
+        "description": "Survey"
+    },
+    {
+        "id": "2",
+        "name": "Cadastre",
+        "description": "Cadastre"
+    },
+    {
+        "id": "3",
+        "name": "Photogrammetry",
+        "description": "Photogrammetry"
+    },
+    {
+        "id": "4",
+        "name": "Geology",
+        "description": "Geology"
+    },
+    {
+        "id": "5",
+        "name": "Hydrology",
+        "description": "Hydrology"
+    },
+    {
+        "id": "6",
+        "name": "Meteorology",
+        "description": "Meteorology"
+    },
+    {
+        "id": "7",
+        "name": "Remote Sensing",
+        "description": "Remote Sensing"
+    },
+    {
+        "id": "8",
+        "name": "Geodesy",
+        "description": "Geodesy"
+    },
+    {
+        "id": "9",
+        "name": "Cartography",
+        "description": "Cartography"
+    },
+    {
+        "id": "10",
+        "name": "Geoinformatics",
+        "description": "Geoinformatics"
+    },
+    {
+        "id": "11",
+        "name": "Geophysics",
+        "description": "Geophysics"
+    },
+    {
+        "id": "12",
+        "name": "Geography",
+        "description": "Geography"
+    },
+    {
+        "id": "13",
+        "name": "Geomatics",
+        "description": "Geomatics"
+    },
+    {
+        "id": "14",
+        "name": "Geospatial",
+        "description": "Geospatial"
+    },
+    {
+        "id": "15",
+        "name": "Geospatial Data",
+        "description": "Geospatial Data"
+    },
+    {
+        "id": "16",
+        "name": "Geospatial Information",
+        "description": "Geospatial Information"
+    },
+    {
+        "id": "17",
+        "name": "Geospatial Intelligence",
+        "description": "Geospatial Intelligence"
+    },
+    {
+        "id": "18",
+        "name": "Geospatial Technology",
+        "description": "Geospatial Technology"
+    },
+    {
+        "id": "19",
+        "name": "Geospatial Analysis",
+        "description": "Geospatial Analysis"
+    },
+    {
+        "id": "20",
+        "name": "Geospatial Data Science",
+        "description": "Geospatial Data Science"
+    }
+]

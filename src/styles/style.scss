@@ -1,2 +1,7 @@
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
 @import 'index';
 @import 'home';
+
+// "build": "react-scripts build && rm -rf docs && mv build docs",
