@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/quiz_app/static/css/main.f25de7ac.css",
-    "main.js": "/quiz_app/static/js/main.a22affe3.js",
+    "main.css": "/quiz_app/static/css/main.b69b64ad.css",
+    "main.js": "/quiz_app/static/js/main.5fa9d8d8.js",
     "static/js/787.83904489.chunk.js": "/quiz_app/static/js/787.83904489.chunk.js",
     "static/media/pdf.worker.js": "/quiz_app/static/media/pdf.worker.5a4781656f64092ca08b.js",
     "static/media/As-Built-survey.pdf": "/quiz_app/static/media/As-Built-survey.018bcd6a0ee2918185f5.pdf",
@@ -13,12 +13,12 @@
     "service-worker.js": "/quiz_app/service-worker.js",
     "static/media/questions.jpg": "/quiz_app/static/media/questions.992c86bb0555b26d4940.jpg",
     "index.html": "/quiz_app/index.html",
-    "main.f25de7ac.css.map": "/quiz_app/static/css/main.f25de7ac.css.map",
-    "main.a22affe3.js.map": "/quiz_app/static/js/main.a22affe3.js.map",
+    "main.b69b64ad.css.map": "/quiz_app/static/css/main.b69b64ad.css.map",
+    "main.5fa9d8d8.js.map": "/quiz_app/static/js/main.5fa9d8d8.js.map",
     "787.83904489.chunk.js.map": "/quiz_app/static/js/787.83904489.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f25de7ac.css",
-    "static/js/main.a22affe3.js"
+    "static/css/main.b69b64ad.css",
+    "static/js/main.5fa9d8d8.js"
   ]
 }
