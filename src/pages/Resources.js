@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack5';
 import pdf from '../assets/pdf/As-Built-survey.pdf';
+// import PdfViewerComponent from '../components/PdfViewerComponent';
 
 export default function Resources() {
   const [numPages, setNumPages] = useState(null);
@@ -18,6 +19,9 @@ export default function Resources() {
       <p>
         Page {pageNumber} of {numPages}
       </p>
+      {/* <div className="PDF-viewer">
+				<PdfViewerComponent document={'document.pdf'} />
+			</div> */}
     </div>
   );
 }

@@ -4,6 +4,8 @@ import { Offline, Online } from "react-detect-offline";
 import questionList from '../assets/jsons/questionList.json'
 import { Container, Button } from '@mui/material'
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
 
 
 export default function QuestionsList() {
@@ -17,21 +19,25 @@ export default function QuestionsList() {
 
   return (
     <Container maxWidth="xl">
-      <div className="title">
+      <div className="nav">
         <Button variant="text" startIcon={<ArrowBackIosNewIcon />} onClick={() => navigate('/')}>Back</Button>
-        <h1 className='title-text'>QuestionsList</h1>
+        <h1 className='title-text'>Questions</h1>
+        <h2 style={{visibility: "hidden"}}>GoBack</h2>
       </div>
       <Offline>You are currently offline. Limited availability of resources.</Offline>
       <Online>You are currently online. Full access to resources.</Online>
-      <ul style={{ marginTop: "10vh" }}>
+      
+      <div style={{ marginTop: "8vh" }}>
+        <List>
         {questionList && questionList.map((e, index) => {
           return (
-            <li key={index} onClick={() => handleClick(e)}>
+            <ListItem key={index} onClick={() => handleClick(e)}>
               <h2>{e.name}</h2>
-            </li>
+            </ListItem>
           )
         })}
-      </ul>
+        </List>
+      </div>
     </Container>
   )
 }

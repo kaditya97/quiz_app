@@ -36,159 +36,87 @@
         ]
     },
     {
-        "question_en": "Which one is correct?",
+        "question_en": "What is the capital of Pakistan?",
         "question_np": "",
-        "question_image": "../images/404.png",
-        "answer": "All of the above",
+        "question_image": null,
+        "answer": "Islamabad",
         "options": [
-            "All of the above",
-            "None of the above",
-            "Both of the above",
-            "None of the above"
+            "Islamabad",
+            "London",
+            "Berlin",
+            "Rome"
         ]
     },
     {
-        "question_en": "Which one is correct?",
+        "question_en": "What is the capital of China?",
         "question_np": "",
         "question_image": null,
-        "answer": "All of the above",
+        "answer": "Beijing",
         "options": [
-            "All of the above",
-            "None of the above",
-            "Both of the above",
-            "None of the above"
+            "Beijing",
+            "London",
+            "Berlin",
+            "Rome"
         ]
     },
     {
-        "question_en": "Which one is correct?",
+        "question_en": "What is the capital of Japan?",
         "question_np": "",
         "question_image": null,
-        "answer": "All of the above",
+        "answer": "Tokyo",
         "options": [
-            "All of the above",
-            "None of the above",
-            "Both of the above",
-            "None of the above"
+            "Tokyo",
+            "London",
+            "Berlin",
+            "Rome"
         ]
     },
     {
-        "question_en": "Which one is correct?",
+        "question_en": "What is the capital of South Korea?",
         "question_np": "",
         "question_image": null,
-        "answer": "All of the above",
+        "answer": "Seoul",
         "options": [
-            "All of the above",
-            "None of the above",
-            "Both of the above",
-            "None of the above"
+            "Seoul",
+            "London",
+            "Berlin",
+            "Rome"
         ]
     },
     {
-        "question_en": "Which one is correct?",
+        "question_en": "What is the capital of the United States of America?",
         "question_np": "",
         "question_image": null,
-        "answer": "All of the above",
+        "answer": "Washington D.C.",
         "options": [
-            "All of the above",
-            "None of the above",
-            "Both of the above",
-            "None of the above"
+            "Washington D.C.",
+            "London",
+            "Berlin",
+            "Rome"
         ]
     },
     {
-        "question_en": "Which one is correct?",
+        "question_en": "What is the capital of the United Kingdom of Great Britain and Northern Ireland?",
         "question_np": "",
         "question_image": null,
-        "answer": "All of the above",
-        "options": [
-            "All of the above",
-            "None of the above",
-            "Both of the above",
-            "None of the above"
+        "answer": "London",
+       "options": [
+            "London",
+            "Berlin",
+            "Rome",
+            "Washington D.C."
         ]
     },
     {
-        "question_en": "Which one is correct?",
+        "question_en": "What is the capital of Mexico?",
         "question_np": "",
         "question_image": null,
-        "answer": "All of the above",
+        "answer": "Mexico City",
         "options": [
-            "All of the above",
-            "None of the above",
-            "Both of the above",
-            "None of the above"
-        ]
-    },
-    {
-        "question_en": "Which one is correct?",
-        "question_np": "",
-        "question_image": null,
-        "answer": "All of the above",
-        "options": [
-            "All of the above",
-            "None of the above",
-            "Both of the above",
-            "None of the above"
-        ]
-    },
-    {
-        "question_en": "Which one is correct?",
-        "question_np": "",
-        "question_image": null,
-        "answer": "All of the above",
-        "options": [
-            "All of the above",
-            "None of the above",
-            "Both of the above",
-            "None of the above"
-        ]
-    },
-    {
-        "question_en": "Which one is correct?",
-        "question_np": "",
-        "question_image": null,
-        "answer": "All of the above",
-        "options": [
-            "All of the above",
-            "None of the above",
-            "Both of the above",
-            "None of the above"
-        ]
-    },
-    {
-        "question_en": "Which one is correct?",
-        "question_np": "",
-        "question_image": null,
-        "answer": "All of the above",
-        "options": [
-            "All of the above",
-            "None of the above",
-            "Both of the above",
-            "None of the above"
-        ]
-    },
-    {
-        "question_en": "Which one is correct?",
-        "question_np": "",
-        "question_image": null,
-        "answer": "All of the above",
-        "options": [
-            "All of the above",
-            "None of the above",
-            "Both of the above",
-            "None of the above"
-        ]
-    },
-    {
-        "question_en": "Which one is correct?",
-        "question_np": "",
-        "question_image": null,
-        "answer": "All of the above",
-        "options": [
-            "All of the above",
-            "None of the above",
-            "Both of the above",
-            "None of the above"
+            "Mexico City",
+            "London",
+            "Berlin",
+            "Rome"
         ]
     }
 ]

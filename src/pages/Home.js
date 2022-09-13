@@ -37,11 +37,11 @@ export default function Home() {
                   component="img"
                   height="140"
                   image={SingleQuestionImage}
-                  alt="MCQ"
+                  alt="Multiple Questions"
                 />
                 <CardContent className='card-content'>
-                  <h2>MCQ</h2>
-                  <p>Choose the correct answer</p>
+                  <h2>Multiple Questions</h2>
+                  <p>Answer multiple questions at a time</p>
                 </CardContent>
               </Card>
             </Grid>
@@ -51,11 +51,25 @@ export default function Home() {
                   component="img"
                   height="140"
                   image={MultiQuestionImage}
-                  alt="Single Answer"
+                  alt="Single Question"
                 />
                 <CardContent className='card-content'>
-                  <h2>Single Answer</h2>
-                  <p>Input answer</p>
+                  <h2>Single Question</h2>
+                  <p>Answer a question at a time</p>
+                </CardContent>
+              </Card>
+            </Grid>
+            <Grid item xs={8} sm={4}>
+              <Card sx={{ maxWidth: 345 }} onClick={() => navigate('/handsfree', { state: { mode: "handsfree" } })} className="card">
+                <CardMedia
+                  component="img"
+                  height="140"
+                  image={MultiQuestionImage}
+                  alt="Handsfree"
+                />
+                <CardContent className='card-content'>
+                  <h2>Handsfree Question</h2>
+                  <p>Answer a question at a time</p>
                 </CardContent>
               </Card>
             </Grid>

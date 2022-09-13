@@ -12,6 +12,7 @@ import Games from './pages/Games';
 import Settings from './pages/Settings';
 import About from "./pages/About";
 import Help from "./pages/Help";
+import Handsfree from './pages/Handsfree';
 
 
 function App() {
@@ -21,8 +22,9 @@ function App() {
                 <Routes>
                     <Route index element={<Home />} />
                     <Route path="questions" element={<QuestionsList />} />
-                    <Route path="singlequestion" element={<SingleQuestion />} />
                     <Route path="multiplequestions" element={<MultipleQuestions />} />
+                    <Route path="singlequestion" element={<SingleQuestion />} />
+                    <Route path="handsfree" element={<Handsfree />} />
                     <Route path="guess" element={<Guess />} />
                     <Route path="resources" element={<Resources />} />
                     <Route path="game" element={<Games />} />

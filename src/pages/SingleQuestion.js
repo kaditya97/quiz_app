@@ -3,7 +3,7 @@ import { useNavigate, useLocation } from 'react-router-dom'
 import questions from '../assets/jsons/question.json'
 import { Container, Button, Card, CardContent, CardHeader } from '@mui/material'
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
-import Stopwatch from '../components/Stopwatch';
+import { useStopwatch } from 'react-timer-hook';
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
@@ -14,18 +14,43 @@ export default function SingleQuestion() {
   const [question, setQuestion] = useState(null)
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [isResult, setIsResult] = useState(false);
+  const [radioValue, setRadioValue] = useState(null);
+  const [results, setResults] = useState([]);
   const navigate = useNavigate();
   const { state } = useLocation();
   const { question_num } = state;
 
+  const {
+    seconds,
+    minutes,
+    pause,
+  } = useStopwatch({ autoStart: true });
+
+  const checkAnswer = () => {
+    var iscorrect = false;
+    var result = {};
+    if (radioValue === question[currentQuestion].answer) {
+      setScore(score + 1);
+      iscorrect = true;
+    }
+    result["question_en"] = question[currentQuestion].question_en;
+    result["question_ne"] = question[currentQuestion].question_ne;
+    result["options"] = question[currentQuestion].options;
+    result["answer"] = question[currentQuestion].answer;
+    result["radioValue"] = radioValue;
+    result["iscorrect"] = iscorrect;
+    results.push(result);
+  }
+
+
   const handleClick = () => {
-    console.log(question[currentQuestion].answer)
+    checkAnswer();
     setCurrentQuestion(currentQuestion + 1);
-    setScore(score + 1)
   }
 
   const handleSubmit = () => {
-    setScore(score + 1)
+    checkAnswer();
+    pause();
     setIsResult(true);
   }
 
@@ -46,11 +71,11 @@ export default function SingleQuestion() {
   return (
     <Container maxWidth="xl">
       <div className="title">
-        <Button variant="text" startIcon={<ArrowBackIosNewIcon />} onClick={() => navigate('/questions', { state: { quizType: "name" } })}>Back</Button>
-        <Stopwatch />
+        <Button variant="text" startIcon={<ArrowBackIosNewIcon />} onClick={() => navigate('/questions', { state: { mode: "single" } })}>Back</Button>
+        <span>{minutes}:{seconds}</span>
       </div>
-      <div style={{ marginTop: "10vh" }}>
-        {question && !isResult && <h2>Question {currentQuestion+1} of {question.length}</h2>}
+      <div className='body-content' style={{ minHeight: "70vh" }}>
+        {question && !isResult && <h2 style={{ display: "flex", justifyContent: "center" }}>Question {currentQuestion + 1} of {question.length}</h2>}
         {question && !isResult && <Card>
           <CardHeader title={question[currentQuestion].question_en} />
           <div>{question[currentQuestion].question_np}</div>
@@ -58,6 +83,8 @@ export default function SingleQuestion() {
             <RadioGroup
               aria-labelledby="demo-radio-buttons-group-label"
               name="radio-buttons-group"
+              value={radioValue}
+              onChange={e => { setRadioValue(e.target.value) }}
             >
               {question[currentQuestion].options.map((e, index) => {
                 return (
@@ -69,7 +96,7 @@ export default function SingleQuestion() {
               <Button variant="contained" color="primary" onClick={handleClick}>Next</Button>}
           </CardContent>
         </Card>}
-        {isResult && <ShowResult score={score} />}
+        {isResult && <ShowResult score={score} minutes={minutes} seconds={seconds} result={results} />}
       </div>
     </Container>
   )

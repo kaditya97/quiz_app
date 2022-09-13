@@ -12,7 +12,7 @@ export default function MultipleQuestion() {
   const navigate = useNavigate();
   const { state } = useLocation();
   const { question_num } = state;
-  
+
   async function getMoviesFromApi() {
     try {
       let response = await fetch('https://raw.githubusercontent.com/kaditya97/geojson/master/cadaster.json');
@@ -27,11 +27,11 @@ export default function MultipleQuestion() {
   }, [])
   return (
     <Container maxWidth="xl">
-      <div className="title">
+      <div className="nav">
         <Button variant="text" startIcon={<ArrowBackIosNewIcon />} onClick={() => navigate('/questions', { state: { quizType: "name" }})}>Back</Button>
         <Stopwatch />
       </div>
-      <div>{question.map((e, index) => {
+      <div className='body-content'>{question.map((e, index) => {
         return (
           <Card key={index}>
             <CardHeader title={e.question_en} />
