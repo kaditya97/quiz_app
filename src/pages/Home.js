@@ -115,6 +115,20 @@ export default function Home() {
                 </CardContent>
               </Card>
             </Grid>
+            <Grid item xs={8} sm={4}>
+              <Card sx={{ maxWidth: 345 }} onClick={() => navigate('/adbs', { state: { quizType: "e.name" } })} className="card">
+                <CardMedia
+                  component="img"
+                  height="140"
+                  image={GamesImage}
+                  alt="adbs"
+                />
+                <CardContent className='card-content'>
+                  <h2>AD BS Converter</h2>
+                  <p>Convert AD to BS and BS to AD</p>
+                </CardContent>
+              </Card>
+            </Grid>
           </Grid>
         </Box> : <UserDetail open={open} setOpen={setOpen} />}
     </Container>

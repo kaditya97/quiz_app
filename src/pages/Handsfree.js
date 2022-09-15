@@ -12,9 +12,10 @@ export default function Handsfree() {
 
     const navigate = useNavigate();
     const onSpeak = () => {
-        console.log('onSpeak');
+        listen({ lang: 'en-GB' });
     }
-    const { speak } = useSpeechSynthesis({onEnd: onSpeak});
+    const onSpeakEnd = () => {console.log("working ifne")}
+    const { speak } = useSpeechSynthesis({ onEnd: onSpeak });
 
     const question = "Whic city is capital of Nepal?";
     const options = ["Kathmandu", "New Delhi", "Berlin", "Paris"];
@@ -26,6 +27,7 @@ export default function Handsfree() {
 
     const onResult = (result) => {
         console.log("onResult", result);
+        const { speak } = new useSpeechSynthesis({onEnd: onSpeakEnd})
         speak({ text: "You choosed option" + result });
         stop();
         setValue(result);
@@ -60,22 +62,13 @@ export default function Handsfree() {
 
     const speakListen = () => {
         console.log("speakListen");
-        // speak({
-        //     text: question, onEnd: () => {
-        //         speak({
-        //             text: "Options:", onEnd: () => {
-        //                 options.forEach(function (option) {
-        //                     speak({ text: option });
-        //                 }).then(function () {
-        //                     speak({ text: "Please select an option" });
-        //                     listen({ lang: 'en-GB' });
-        //                 }
-        //                 );
-        //             }
-        //         })
-        //     }
-        // });
-        speak({ text: question, onEnd: onEnd });
+        var speakOption = '';
+        const optionselect = ['a', 'b', 'c', 'd']
+        options.forEach(function (option, index) {
+            speakOption = speakOption + optionselect[index] + ';' + option + ';';
+        })
+        console.log(speakOption)
+        speak({ text: question + "options: " + speakOption + "; Please Select a suitable option?", rate: 0.8});
     }
 
     // useEffect(() => {

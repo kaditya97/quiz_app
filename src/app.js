@@ -9,10 +9,12 @@ import MultipleQuestions from "./pages/MultipleQuestions";
 import Guess from './pages/Guess';
 import Resources from "./pages/Resources";
 import Games from './pages/Games';
+import Handsfree from './pages/Handsfree';
+import Adbs from './pages/Adbs';
+import Tools from './pages/Tools'
 import Settings from './pages/Settings';
 import About from "./pages/About";
 import Help from "./pages/Help";
-import Handsfree from './pages/Handsfree';
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
                     <Route path="guess" element={<Guess />} />
                     <Route path="resources" element={<Resources />} />
                     <Route path="game" element={<Games />} />
+                    <Route path="adbs" element={<Adbs />} />
+                    <Route path="tools" element={<Tools />} />
                     <Route path="settings" element={<Settings />} />
                     <Route path="about" exact element={<About />} />
                     <Route path="help" exact element={<Help />} />
