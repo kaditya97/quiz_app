@@ -14,7 +14,7 @@ export default function Handsfree() {
     const onSpeak = () => {
         listen({ lang: 'en-GB' });
     }
-    const onSpeakEnd = () => {console.log("working ifne")}
+    const onSpeakEnd = () => { console.log("working ifne") }
     const { speak } = useSpeechSynthesis({ onEnd: onSpeak });
 
     const question = "Whic city is capital of Nepal?";
@@ -27,7 +27,7 @@ export default function Handsfree() {
 
     const onResult = (result) => {
         console.log("onResult", result);
-        const { speak } = new useSpeechSynthesis({onEnd: onSpeakEnd})
+        const { speak } = new useSpeechSynthesis({ onEnd: onSpeakEnd })
         speak({ text: "You choosed option" + result });
         stop();
         setValue(result);
@@ -68,7 +68,7 @@ export default function Handsfree() {
             speakOption = speakOption + optionselect[index] + ';' + option + ';';
         })
         console.log(speakOption)
-        speak({ text: question + "options: " + speakOption + "; Please Select a suitable option?", rate: 0.8});
+        speak({ text: question + "options: " + speakOption + "; Please Select a suitable option?", rate: 0.8 });
     }
 
     // useEffect(() => {
@@ -103,8 +103,11 @@ export default function Handsfree() {
                     </CardContent>
                 </Card>
                 <Button onClick={speakListen}>SpeakListen</Button>
-                <Speech />
-                <Voice />
+                <div className="body-content">
+                    <h1>Coming Soon..</h1>
+                </div>
+                {/* <Speech />
+                <Voice /> */}
             </div>
         </Container>
     );

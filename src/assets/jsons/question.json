@@ -1,122 +1,640 @@
 [
     {
-        "question_en": "What is the capital of France?",
-        "question_np": "फ्रान्सको राजधानी के हो?",
-        "question_image": null,
-        "answer": "Paris",
-        "options": [
-            "Paris",
-            "London",
-            "Berlin",
-            "Rome"
-        ]
+        "question_en": "Gaurishankar Himal belongs to which Mountain range?",
+        "question_ne": "गौरीशंकर हिमाल कुन हिमाल श्रीन्खलामा रहेको हो ?",
+        "question_img": null,
+        "options_en": [
+            "Mukut",
+            "Rolwaaling",
+            "Mahaalangur",
+            "Ganesh"
+        ],
+        "options_ne": [
+            "मुकुट",
+            "रोल्वालिङ",
+            "महालङ्गुर",
+            "गणेश"
+        ],
+        "options_img": null,
+        "answer_en": "Rolwaaling",
+        "answer_ne": "रोल्वालिङ",
+        "hint_en": "It is the second highest peak of this range",
+        "hint_ne": "यो श्रीन्खलामा दोस्रो उच्चतम शिखर हो"
     },
     {
-        "question_en": "What is the capital of Nepal?",
-        "question_np": "नेपालको राजधानी के हो?",
-        "question_image": null,
-        "answer": "Kathmandu",
-        "options": [
-            "Kathmandu",
-            "London",
-            "Berlin",
-            "Rome"
-        ]
+        "question_en": "Ganga Jamuna lake is located in which district?",
+        "question_ne": "गंगा जमुना ताल कुन जिल्लामा रहेको हो ?",
+        "question_img": null,
+        "options_en": [
+            "Gorakha",
+            "Syangja",
+            "Makawanpur",
+            "Dhading"
+        ],
+        "options_ne": [
+            "गोरखा",
+            "स्याङ्जा",
+            "मकवानपुर",
+            "धादिङ"
+        ],
+        "options_img": null,
+        "answer_en": "Dhading",
+        "answer_ne": "धादिङ",
+        "hint_en": "Ganesh himal area",
+        "hint_ne": "गणेश हिमाल क्षेत्र"
     },
     {
-        "question_en": "What is the capital of India?",
-        "question_np": "",
-        "question_image": null,
-        "answer": "New Delhi",
-        "options": [
-            "London",
-            "Berlin",
-            "Rome",
-            "New Delhi"
-        ]
+        "question_en": "In which palce in Nepal, vulture breeding center has been opened?",
+        "question_ne": "नेपालमा गिद्ध ब्रेडिङ केन्द्र कुन ठाउँमा खुलेको छ?",
+        "question_img": null,
+        "options_en": [
+            "Rara N.P",
+            "Chitwan N.P",
+            "Banke N.P",
+            "Makalu N.P"
+        ],
+        "options_ne": [
+            "रारा वन्यजीव संरक्षण क्षेत्र",
+            "चितवन वन्यजीव संरक्षण क्षेत्र",
+            "बाँके वन्यजीव संरक्षण क्षेत्र",
+            "मकालु वन्यजीव संरक्षण क्षेत्र"
+        ],
+        "options_img": null,
+        "answer_en": "Chitwan N.P",
+        "answer_ne": "चितवन वन्यजीव संरक्षण क्षेत्र",
+        "hint_en": "Inner terai district place",
+        "hint_ne": "इन्नर तेराई जिल्ला ठाउँ"
     },
     {
-        "question_en": "What is the capital of Pakistan?",
-        "question_np": "",
-        "question_image": null,
-        "answer": "Islamabad",
-        "options": [
-            "Islamabad",
-            "London",
-            "Berlin",
-            "Rome"
-        ]
+        "question_en": "Which tree produces the most oxygen?",
+        "question_ne": "कुन रुखले सबैभन्दा बढी अक्सिजन उत्पादन गर्छ?",
+        "question_img": null,
+        "options_en": [
+            "Chir pine(सल्लो)",
+            "Mango(आँप)",
+            "Ficus(पिपल)",
+            "Sal tree(साल)"
+        ],
+        "options_ne": [
+            "सल्लो",
+            "आँप",
+            "पिपल",
+            "साल"
+        ],
+        "options_img": null,
+        "answer_en": "Ficus(पिपल)",
+        "answer_ne": "पिपल",
+        "hint_en": "It is a fig tree",
+        "hint_ne": "यो एक फिग रुखला हो"
     },
     {
-        "question_en": "What is the capital of China?",
-        "question_np": "",
-        "question_image": null,
-        "answer": "Beijing",
-        "options": [
-            "Beijing",
-            "London",
-            "Berlin",
-            "Rome"
-        ]
+        "question_en": "Which is the largest lake in Nepal?",
+        "question_ne": "नेपालमा सबैभन्दा ठूलो ताल कुन हो?",
+        "question_img": null,
+        "options_en": [
+            "Rara lake",
+            "Ganga Jamuna lake",
+            "Phewa lake",
+            "Rupa lake"
+        ],
+        "options_ne": [
+            "रारा ताल",
+            "गंगा जमुना ताल",
+            "फेवा ताल",
+            "रुपा ताल"
+        ],
+        "options_img": null,
+        "answer_en": "Rara lake",
+        "answer_ne": "रारा ताल",
+        "hint_en": "It is located in Mugu district",
+        "hint_ne": "यो मुगु जिल्लामा रहेको हो"
     },
     {
-        "question_en": "What is the capital of Japan?",
-        "question_np": "",
-        "question_image": null,
-        "answer": "Tokyo",
-        "options": [
-            "Tokyo",
-            "London",
-            "Berlin",
-            "Rome"
-        ]
+        "question_en": "Which is the highest peak in Nepal?",
+        "question_ne": "नेपालमा सबैभन्दा उच्चतम शिखर कुन हो?",
+        "question_img": null,
+        "options_en": [
+            "Machhapuchhre",
+            "Dhaulagiri",
+            "Manaslu",
+            "Everest"
+        ],
+        "options_ne": [
+            "मछापुच्छ्रे",
+            "धौलागिरी",
+            "मनास्लु",
+            "इभरेस्ट"
+        ],
+        "options_img": null,
+        "answer_en": "Everest",
+        "answer_ne": "इभरेस्ट",
+        "hint_en": "It is located in Solukhumbu district",
+        "hint_ne": "यो सोलुखुम्बु जिल्लामा रहेको हो"
     },
     {
-        "question_en": "What is the capital of South Korea?",
-        "question_np": "",
-        "question_image": null,
-        "answer": "Seoul",
-        "options": [
-            "Seoul",
-            "London",
-            "Berlin",
-            "Rome"
-        ]
+        "question_en": "Which season is found generally in Nepal during the months of Asoj-Kartik out of six seasons?",
+        "question_ne": "असोज-कार्तिक महिनामा नेपालमा ऋतु भएको कुन हो?",
+        "question_img": null,
+        "options_en": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "options_ne": [
+            "बस्ती",
+            "गर्मी",
+            "शरद",
+            "शिशिर"
+        ],
+        "options_img": null,
+        "answer_en": "Autumn",
+        "answer_ne": "शरद",
+        "hint_en": "It is the season of harvesting",
+        "hint_ne": "यो फसल उत्पादन ऋतु हो"
     },
     {
-        "question_en": "What is the capital of the United States of America?",
-        "question_np": "",
-        "question_image": null,
-        "answer": "Washington D.C.",
-        "options": [
-            "Washington D.C.",
-            "London",
-            "Berlin",
-            "Rome"
-        ]
+        "question_en": "Which is the longest river in Nepal?",
+        "question_ne": "नेपालमा सबैभन्दा लामो नदी कुन हो?",
+        "question_img": null,
+        "options_en": [
+            "Karnali",
+            "Babai",
+            "Koshi",
+            "Saptakoshi"
+        ],
+        "options_ne": [
+            "कर्णाली",
+            "बाबाई",
+            "कोशी",
+            "सप्तकोशी"
+        ],
+        "options_img": null,
+        "answer_en": "Karnali",
+        "answer_ne": "कर्णाली",
+        "hint_en": "It is the longest river in Nepal",
+        "hint_ne": "यो नेपालमा सबैभन्दा लम्बो नदी हो"
     },
     {
-        "question_en": "What is the capital of the United Kingdom of Great Britain and Northern Ireland?",
-        "question_np": "",
-        "question_image": null,
-        "answer": "London",
-       "options": [
-            "London",
-            "Berlin",
-            "Rome",
-            "Washington D.C."
-        ]
+        "question_en": "Which is the largest district in Nepal?",
+        "question_ne": "नेपालमा सबैभन्दा ठूलो जिल्ला कुन हो?",
+        "question_img": null,
+        "options_en": [
+            "Mugu",
+            "Jumla",
+            "Humla",
+            "Dolpa"
+        ],
+        "options_ne": [
+            "मुगु",
+            "जुम्ला",
+            "हुम्ला",
+            "डोल्पा"
+        ],
+        "options_img": null,
+        "answer_en": "Dolpa",
+        "answer_ne": "डोल्पा",
+        "hint_en": "It is located in the west of Nepal",
+        "hint_ne": "यो नेपालको पश्चिम भागमा रहेको हो"
     },
     {
-        "question_en": "What is the capital of Mexico?",
-        "question_np": "",
-        "question_image": null,
-        "answer": "Mexico City",
-        "options": [
-            "Mexico City",
-            "London",
-            "Berlin",
-            "Rome"
-        ]
+        "question_en": "How many types of seasons are there in Nepal?",
+        "question_ne": "नेपालमा कति ऋतु छन्?",
+        "question_img": null,
+        "options_en": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "options_ne": [
+            "४",
+            "५",
+            "६",
+            "७"
+        ],
+        "options_img": null,
+        "answer_en": "5",
+        "answer_ne": "५",
+        "hint_en": "It is the number of seasons in Nepal",
+        "hint_ne": "यो नेपालमा ऋतुको संख्या हो"
+    },
+    {
+        "question_en": "Which is the religious book of Kirant religion?",
+        "question_ne": "किरान्त धर्मको धार्मिक पुस्तक कुन हो?",
+        "question_img": null,
+        "options_en": [
+            "Mahaayaan",
+            "Hinyaan",
+            "Mundhum",
+            "Shrijunga"
+        ],
+        "options_ne": [
+            "महायान",
+            "हिन्यान",
+            "मुन्धुम",
+            "श्रीजुङ्गा"
+        ],
+        "options_img": null,
+        "answer_en": "Mundhum",
+        "answer_ne": "मुन्धुम",
+        "hint_en": "It is the religious book of Kirant religion",
+        "hint_ne": "यो किरान्त धर्मको धार्मिक पुस्तक हो"
+    },
+    {
+        "question_en": "During the reign of which king, Shankhadhar Skhwa introduced Nepal Smvat?",
+        "question_ne": "कुन राजाको शासनकालमा शंखधर ख्वाले नेपाल सम्वतको प्रचलन गरेका थिए?",
+        "question_img": null,
+        "options_en": [
+            "Raghaw Dev",
+            "Jaybhim Dev",
+            "Ari Dev",
+            "Arjun Dev"
+        ],
+        "options_ne": [
+            "रघव देव",
+            "जयभिम देव",
+            "अरी देव",
+            "अर्जुन देव"
+        ],
+        "options_img": null,
+        "answer_en": "Raghaw Dev",
+        "answer_ne": "रघव देव",
+        "hint_en": "He was the king of Nepal during of thakuri dynasty",
+        "hint_ne": "यो थकुरी राजधानीको शासनकालमा नेपालको राजा थिए"
+    },
+    {
+        "question_en": "Which of the following is not a Plan holiday year?",
+        "question_ne": "तलका मध्ये कुन योजना छुट्टी वर्ष होइन?",
+        "question_img": null,
+        "options_en": [
+            "FY 2018/19",
+            "FY 2028/29",
+            "FY 2047/48",
+            "FY 2048/49"
+        ],
+        "options_ne": [
+            "२०१८/१९ आर्थिक वर्ष",
+            "२०२८/२९ आर्थिक वर्ष",
+            "२०४७/४८ आर्थिक वर्ष",
+            "२०४८/४९ आर्थिक वर्ष"
+        ],
+        "options_img": null,
+        "answer_en": "FY 2028/29",
+        "answer_ne": "२०२८/२९ आर्थिक वर्ष",
+        "hint_en": "It is not a plan holiday year",
+        "hint_ne": "यो छुट्टी वर्ष होइन"
+    },
+    {
+        "question_en": "Which is the first industrial area of Nepal?",
+        "question_ne": "नेपालको पहिलो औद्योगिक क्षेत्र कुन हो?",
+        "question_img": null,
+        "options_en": [
+            "Dharan Industrial Area",
+            "Patan Industrial Area",
+            "Balaju Industrial Area",
+            "Hetauda Industrial Area"
+        ],
+        "options_ne": [
+            "धरान औद्योगिक क्षेत्र",
+            "पाटन औद्योगिक क्षेत्र",
+            "बलाजु औद्योगिक क्षेत्र",
+            "हेटौडा औद्योगिक क्षेत्र"
+        ],
+        "options_img": null,
+        "answer_en": "Balaju Industrial Area",
+        "answer_ne": "बलाजु औद्योगिक क्षेत्र",
+        "hint_en": "It is the first industrial area of Nepal",
+        "hint_ne": "यो नेपालको पहिलो औद्योगिक क्षेत्र हो"
+    },
+    {
+        "question_en": "Which conference brought the concept of sustainable development?",
+        "question_ne": "कुन सम्मेलनले स्थायी विकासको (sustainable development) अवधारणा लागू गरेको छ?",
+        "question_img": null,
+        "options_en": [
+            "Earth Summit",
+            "Brundtland Commission",
+            "Agenda-21",
+            "Rio de Janeiro"
+        ],
+        "options_ne": [
+            "भूमि सम्मेलन",
+            "ब्रुन्ड्टल्याण्ड आयोग",
+            "अजेन्डा-२१",
+            "रियो डे जानेयरो"
+        ],
+        "options_img": null,
+        "answer_en": "Brundtland Commission",
+        "answer_ne": "ब्रुन्ड्टल्याण्ड आयोग",
+        "hint_en": "It is the first international conference on environment and development",
+        "hint_ne": "यो पहिलो अन्तर्राष्ट्रिय वातावरण र विकासको सम्मेलन हो"
+    },
+    {
+        "question_en": "When was the Environment Protection Act first introduced in Nepal?",
+        "question_ne": "नेपालमा वातावरण सुरक्षा कानून पहिलो बार कुन वर्षमा प्रस्तुत गरिएको छ?",
+        "question_img": null,
+        "options_en": [
+            "BS 2051",
+            "BS 2052",
+            "BS 2053",
+            "BS 2054"
+        ],
+        "options_ne": [
+            "विक्रम संवत २०५१",
+            "विक्रम संवत २०५२",
+            "विक्रम संवत २०५३",
+            "विक्रम संवत २०५४"
+        ],
+        "options_img": null,
+        "answer_en": "BS 2053",
+        "answer_ne": "विक्रम संवत २०५३",
+        "hint_en": "It was introduced in 1996",
+        "hint_ne": "यो १९९६ मा प्रस्तुत गरिएको छ"
+    },
+    {
+        "question_en": "How many nations are allotted from Asia in the Economic and Social Council of the United Nations?",
+        "question_ne": "संयुक्त राष्ट्र संघको आर्थिक तथा सामाजिक परिषद्मा एसियाबाट कति राष्ट्रहरु रहेका छन्?",
+        "question_img": null,
+        "options_en": [
+            "10",
+            "11",
+            "12",
+            "13"
+        ],
+        "options_ne": [
+            "१०",
+            "११",
+            "१२",
+            "१३"
+        ],
+        "options_img": null,
+        "answer_en": "11",
+        "answer_ne": "११",
+        "hint_en": "It is the largest regional group in the United Nations",
+        "hint_ne": "यो संयुक्त राष्ट्र संघमा सबैभन्दा बडी राजनीतिक समूह हो"
+    },
+    {
+        "question_en": "How many years is the tenure of the Secretary General of SAARC?",
+        "question_ne": "सार्क सचिवको अवधि कति वर्ष हो?",
+        "question_img": null,
+        "options_en": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "options_ne": [
+            "२",
+            "३",
+            "४",
+            "५"
+        ],
+        "options_img": null,
+        "answer_en": "3",
+        "answer_ne": "३",
+        "hint_en": "It is the longest tenure of any Secretary General of SAARC",
+        "hint_ne": "यो सार्कको कुनै सचिवको अवधि सबैभन्दा लामो हो"
+    },
+    {
+        "question_en": "How many MPs of the National Assembly are nominated from the Presidency?",
+        "question_ne": "राष्ट्रपतिबाट राष्ट्रिय सभाका कति जना सांसद मनोनीत हुन्छन्?",
+        "question_img": null,
+        "options_en": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "options_ne": [
+            "२",
+            "३",
+            "४",
+            "५"
+        ],
+        "options_img": null,
+        "answer_en": "3",
+        "answer_ne": "३",
+        "hint_en": "It is the highest number of MPs nominated from the Presidency",
+        "hint_ne": "यो राष्ट्रपतिबाट सांसद मनोनीत गर्ने सबैभन्दा बढी संख्या हो"
+    },
+    {
+        "question_en": "According to the Constitution of Nepal(2072), when the posts of the President and Vice President become vacant, who will be the acting President?",
+        "question_ne": "नेपालको संविधान (२०७२) बमोजिम राष्ट्रपति र उपराष्ट्रपतिको पद रिक्त भएमा कार्यवाहक राष्ट्रपति को हुनेछ ?",
+        "question_img": null,
+        "options_en": [
+            "Prime Minister",
+            "Speaker of the House of Representatives",
+            "Chief Justice of the Supreme Court",
+            "Speaker of the National Assembly"
+        ],
+        "options_ne": [
+            "प्रधानमन्त्री",
+            "प्रतिनिधि सभाका सभामुख",
+            "उच्च न्यायालयको न्यायाधीश",
+            "राष्ट्रिय सभाका सभामुख"
+        ],
+        "options_img": null,
+        "answer_en": "Speaker of the House of Representative",
+        "answer_ne": "प्रतिनिधि सभाका सभामुख",
+        "hint_en": "The Speaker of the House of Representatives is the acting President of Nepal",
+        "hint_ne": "प्रतिनिधि सभाका सभामुख नेपालको कार्यवाहक राष्ट्रपति हो"
+    },
+    {
+        "question_en": "According to the Constitution of Nepal(2072), how many years of age must be completed to become the head of the province?",
+        "question_ne": "नेपालको संविधान (२०७२) अनुसार प्रदेश प्रमुख हुन कति वर्ष उमेर पूरा हुनुपर्नेछ ?",
+        "question_img": null,
+        "options_en": [
+            "25",
+            "35",
+            "45",
+            "55"
+        ],
+        "options_ne": [
+            "२५",
+            "३५",
+            "४५",
+            "५५"
+        ],
+        "options_img": null,
+        "answer_en": "35",
+        "answer_ne": "३५",
+        "hint_en": "The age limit to become the head of the province is 35 years",
+        "hint_ne": "प्रदेश प्रमुख हुनको उमेर सीमा ३५ वर्ष हो"
+    },
+    {
+        "question_en": "Who is th coordinator of the local revenue consultation committee to be formed in the municipality?",
+        "question_ne": "नगरपालिकामा निर्मित स्थानीय कर विचार समितिको कोषाध्यक्ष को हुनेछ ?",
+        "question_img": null,
+        "options_en": [
+            "Municipal Chief",
+            "Municipal Deputy Chief",
+            "Chief Administrative Officer",
+            "Head of Revenue Office"
+        ],
+        "options_ne": [
+            "नगरपालिका प्रमुख",
+            "नगरपालिका उपप्रमुख",
+            "प्रशासनिक अधिकारी",
+            "कर अधिकारी"
+        ],
+        "options_img": null,
+        "answer_en": "Municipal Deputy Chief",
+        "answer_ne": "नगरपालिका उपप्रमुख",
+        "hint_en": "The Municipal Deputy Chief is the coordinator of the local revenue consultation committee",
+        "hint_ne": "नगरपालिका उपप्रमुख स्थानीय कर विचार समितिको कोषाध्यक्ष हो"
+    },
+    {
+        "question_en": "How many types of civil services have been established by the Civil Service Act, 2049?",
+        "question_ne": "निजामती सेवा ऐन, २०४९ ले कति प्रकारका निजामती सेवाको स्थापना गरेको छ ?",
+        "question_img": null,
+        "options_en": [
+            "6",
+            "8",
+            "10",
+            "12"
+        ],
+        "options_ne": [
+            "६",
+            "८",
+            "१०",
+            "१२"
+        ],
+        "options_img": null,
+        "answer_en": "10",
+        "answer_ne": "१०",
+        "hint_en": "The Civil Service Act, 2049 has established 10 types of civil services",
+        "hint_ne": "निजामती सेवा ऐन, २०४९ ले १० प्रकारका निजामती सेवाको स्थापना गरेको छ"
+    },
+    {
+        "question_en": "How many years is the tenure of the Secretary of the Government of Nepal?",
+        "question_ne": "नेपाल सरकारको सचिवको कार्यकाल कति वर्षको हुन्छ ?",
+        "question_img": null,
+        "options_en": [
+            "6",
+            "5",
+            "4",
+            "3"
+        ],
+        "options_ne": [
+            "६",
+            "५",
+            "४",
+            "३"
+        ],
+        "options_img": null,
+        "answer_en": "5",
+        "answer_ne": "५",
+        "hint_en": "The tenure of the Secretary of the Government of Nepal is 5 years",
+        "hint_ne": "नेपाल सरकारको सचिवको कार्यकाल ५ वर्षको हुन्छ"
+    },
+    {
+        "question_en": "How many principles did John Major put forward when implementing the Citizen Charter?",
+        "question_ne": "जोन मेजरले नागरिक वडापत्र कार्यान्वयन गर्दा कतिवटा सिद्धान्तहरू अगाडि सारेका थिए ?",
+        "question_img": null,
+        "options_en": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "options_ne": [
+            "४",
+            "५",
+            "६",
+            "७"
+        ],
+        "options_img": null,
+        "answer_en": "6",
+        "answer_ne": "६",
+        "hint_en": "John Major put forward 6 principles when implementing the Citizen Charter",
+        "hint_ne": "जोन मेजरले नागरिक वडापत्र कार्यान्वयन गर्दा ६ सिद्धान्तहरू अगाडि सारेका थिए"
+    },
+    {
+        "question_en": "A network of groups and individuals that seek major social and political change who act outside of established political institutions is commonly referred to as?",
+        "question_ne": "ठूला सामाजिक र राजनीतिक परिवर्तन खोज्ने समूह र व्यक्तिहरूको सञ्जाल जसले स्थापित राजनैतिक संस्थाहरू बाहिर काम गर्दछ सामान्यतया भनिन्छ?",
+        "question_img": null,
+        "options_en": [
+            "Old social movement",
+            "Policy community",
+            "Social movement",
+            "Public interest group"
+        ],
+        "options_ne": [
+            "पुरानो सामाजिक आगमन",
+            "नीति समुदाय",
+            "सामाजिक आगमन",
+            "सार्वजनिक रुचि समूह"
+        ],
+        "options_img": null,
+        "answer_en": "Social movement",
+        "answer_ne": "सामाजिक आगमन",
+        "hint_en": "Social movement is a network of groups and individuals that seek major social and political change who act outside of established political institutions",
+        "hint_ne": "सामाजिक आगमन ठूला सामाजिक र राजनीतिक परिवर्तन खोज्ने समूह र व्यक्तिहरूको सञ्जाल जसले स्थापित राजनैतिक संस्थाहरू बाहिर काम गर्दछ"
+    },
+    {
+        "question_en": "Which one of the following examples is not included in the intangible premises of planning?",
+        "question_ne": "निम्न मध्ये कुन एउटा उदाहरण योजनाको अमूर्त परिसरमा समावेश गरिएको छैन?",
+        "question_img": null,
+        "options_en": [
+            "Public Relations",
+            "Employee Morale",
+            "labour Hours",
+            "Competitive Strength"
+        ],
+        "options_ne": [
+            "सार्वजनिक सम्बन्ध",
+            "कर्मचारी आशा",
+            "कामदार घण्टा",
+            "ब्यापारिक शक्ति"
+        ],
+        "options_img": null,
+        "answer_en": "labour Hours",
+        "answer_ne": "कामदार घण्टा",
+        "hint_en": "Labour hours is not included in the intangible premises of planning",
+        "hint_ne": "कामदार घण्टा योजनाको अमूर्त परिसरमा समावेश गरिएको छैन"
+    },
+    {
+        "question_en": "From which country did the gender responsive budgeting in the worl start?",
+        "question_ne": "विश्वमा लैङ्गिक उत्तरदायी बजेटको सुरुवात कुन देशबाट भएको हो ?",
+        "question_img": null,
+        "options_en": [
+            "Australia",
+            "Britain",
+            "USA",
+            "Russia"
+        ],
+        "options_ne": [
+            "अष्ट्रेलिया",
+            "ब्रिटेन",
+            "संयुक्त राज्य",
+            "रूस"
+        ],
+        "options_img": null,
+        "answer_en": "Australia",
+        "answer_ne": "अष्ट्रेलिया",
+        "hint_en": "Country of kangaroos",
+        "hint_ne": "केंगारो देश"
+    },
+    {
+        "question_en": "Who is the present Prime Minister of UK?",
+        "question_ne": "युके को वर्तमान प्रधानमन्त्री को नाम के हो ?",
+        "question_img": null,
+        "options_en": [
+            "Boris Johnson",
+            "Liz Truss",
+            "Rishi Sunak",
+            "Joe Biden"
+        ],
+        "options_ne": [
+            "बोरिस जोनसन",
+            "लिज ट्रस",
+            "रिशि सुनक",
+            "जो बाइडन"
+        ],
+        "options_img": null,
+        "answer_en": "Liz Truss",
+        "answer_ne": "लिज ट्रस",
+        "hint_en": "Liz Truss is the current Prime Minister of UK",
+        "hint_ne": "लिज ट्रस युके को वर्तमान प्रधानमन्त्री हो"
     }
 ]

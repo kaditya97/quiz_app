@@ -17,7 +17,7 @@ export default function Games() {
           <h2 style={{ visibility: "hidden" }}>GoBack</h2>
         </div>
         <div className="body-content">
-          <h1>Games</h1>
+          <h1>Coming soon..</h1>
         </div>
       </Container>
     )

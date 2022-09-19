@@ -42,7 +42,7 @@ export default function UserDetail({open, setOpen}) {
           <DialogContentText>
             Add your personal Details.
           </DialogContentText>
-          <Select options={genderOptions} onChange={e => setGender(e.value)} />
+          <Select options={genderOptions} onChange={e => setGender(e.value)} placeholder="Select Gender" />
           <TextField
             autoFocus
             margin="dense"

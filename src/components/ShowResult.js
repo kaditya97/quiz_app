@@ -8,8 +8,8 @@ export default function ShowResult({ score, minutes, seconds, result }) {
   return (
     <>
       <div>
-        <div>Showing Score: {score}</div>
-        <div>Time: {minutes}:{seconds}</div>
+        <div><h2>Your Score: {score}</h2></div>
+        <div><h3>Time: {minutes}:{seconds}</h3></div>
       </div>
       <div>
         {result.map((item, index) => {
@@ -18,8 +18,8 @@ export default function ShowResult({ score, minutes, seconds, result }) {
               <CardContent>
                 <CardHeader title={item.question_en} />
                 <List>
-                  {item.options.map((option, index) => {
-                    if (option === item.radioValue && option === item.answer) {
+                  {item.options_en.map((option, index) => {
+                    if (option === item.radioValue && option === item.answer_en) {
                       return (
                         <ListItem>
                           <ListItemText key={index} primary={option} secondary="Correct" sx={{ color: "green" }} />
@@ -27,7 +27,7 @@ export default function ShowResult({ score, minutes, seconds, result }) {
                         </ListItem>
                       )
                     }
-                    else if (option === item.radioValue && option !== item.answer) {
+                    else if (option === item.radioValue && option !== item.answer_en) {
                       return (
                         <ListItem>
                           <ListItemText key={index} primary={option} secondary="Incorrect" sx={{ color: "red" }} />
@@ -45,7 +45,7 @@ export default function ShowResult({ score, minutes, seconds, result }) {
                   }
                   )}
                 </List>
-                {item.iscorrect ? null : <div>Answer: {item.answer}</div>}
+                {item.iscorrect ? null : <div>Answer: {item.answer_en}</div>}
               </CardContent>
             </Card>
           )

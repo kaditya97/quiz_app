@@ -116,16 +116,16 @@ export default function Home() {
               </Card>
             </Grid>
             <Grid item xs={8} sm={4}>
-              <Card sx={{ maxWidth: 345 }} onClick={() => navigate('/adbs', { state: { quizType: "e.name" } })} className="card">
+              <Card sx={{ maxWidth: 345 }} onClick={() => navigate('/tools', { state: { quizType: "e.name" } })} className="card">
                 <CardMedia
                   component="img"
                   height="140"
                   image={GamesImage}
-                  alt="adbs"
+                  alt="tools"
                 />
                 <CardContent className='card-content'>
-                  <h2>AD BS Converter</h2>
-                  <p>Convert AD to BS and BS to AD</p>
+                  <h2>Tools</h2>
+                  <p>Useful Tools</p>
                 </CardContent>
               </Card>
             </Grid>

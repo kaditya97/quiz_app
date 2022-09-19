@@ -21,7 +21,7 @@ export default function Guess() {
           <h2 style={{ visibility: "hidden" }}>GoBack</h2>
         </div>
         <div className="body-content">
-          <h1>Guess</h1>
+          <h1>Coming Soon..</h1>
         </div>
       </Container>
     )
