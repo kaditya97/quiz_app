@@ -19,7 +19,7 @@ export default function Help() {
                 <h2 style={{ visibility: "hidden" }}>GoBack</h2>
             </div>
             <div className="body-content">
-                <h1>Help</h1>
+                <h1>Coming soon..</h1>
                 <SearchBar
                     value={searchValue}
                     onChange={(newValue) => setSearchValue(newValue)}

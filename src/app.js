@@ -8,6 +8,8 @@ import SingleQuestion from "./pages/SingleQuestion";
 import MultipleQuestions from "./pages/MultipleQuestions";
 import Guess from './pages/Guess';
 import Resources from "./pages/Resources";
+import ResourceList from "./pages/ResourceList";
+import PdfView from "./pages/PdfView";
 import Games from './pages/Games';
 import Handsfree from './pages/Handsfree';
 import Adbs from './pages/Adbs';
@@ -29,6 +31,8 @@ function App() {
                     <Route path="handsfree" element={<Handsfree />} />
                     <Route path="guess" element={<Guess />} />
                     <Route path="resources" element={<Resources />} />
+                    <Route path="resourcelist" element={<ResourceList />} />
+                    <Route path="pdfview" element={<PdfView />} />
                     <Route path="game" element={<Games />} />
                     <Route path="adbs" element={<Adbs />} />
                     <Route path="tools" element={<Tools />} />

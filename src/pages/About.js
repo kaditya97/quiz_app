@@ -14,7 +14,7 @@ export default function About() {
         <h2 style={{ visibility: "hidden" }}>GoBack</h2>
       </div>
       <div className="body-content">
-        <Speech />
+        <h1>Coming Soon..</h1>
       </div>
     </Container>
   );

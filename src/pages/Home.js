@@ -74,7 +74,7 @@ export default function Home() {
               </Card>
             </Grid>
             <Grid item xs={8} sm={4}>
-              <Card sx={{ maxWidth: 345 }} onClick={() => navigate('/guess', { state: { quizType: "e.name" } })} className="card">
+              <Card sx={{ maxWidth: 345 }} onClick={() => navigate('/questions', { state: { mode: "guess" } })} className="card">
                 <CardMedia
                   component="img"
                   height="140"

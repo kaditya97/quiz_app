@@ -68,7 +68,7 @@ export default function Handsfree() {
             speakOption = speakOption + optionselect[index] + ';' + option + ';';
         })
         console.log(speakOption)
-        speak({ text: question + "options: " + speakOption + "; Please Select a suitable option?", rate: 0.8 });
+        speak({ text: question + "options:; " + speakOption + "; Please Select a suitable option?", rate: 0.8 });
     }
 
     // useEffect(() => {

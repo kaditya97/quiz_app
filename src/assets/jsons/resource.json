@@ -1,0 +1,145 @@
+[
+    {
+        "type": "Syllabus",
+        "description": "Syllabus",
+        "list": [
+            {
+                "name": "Napi Adhikrit PSC 1",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/b9d8fe9d310d9bbbf361aefe7322e52f9a42e937/pdfs/psc1.pdf",
+                "description": "Napi Adhikrit PSC 1"
+            },
+            {
+                "name": "Napi Adhikrit PSC 2",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/b9d8fe9d310d9bbbf361aefe7322e52f9a42e937/pdfs/psc2.pdf",
+                "description": "Napi Adhikrit PSC 2"
+            }
+        ]
+    },
+    {
+        "type": "Nepali Journal on Geoinformatics",
+        "description": "Nepali Journal on Geoinformatics",
+        "list": [
+            {
+                "name": "Journal 1",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/1_nepalesejournal1.pdf",
+                "description": "Journal 1 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 2",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/2_nepalesejournal2.pdf",
+                "description": "Journal 2 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 3",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/3_nepalesejournal3.pdf",
+                "description": "Journal 3 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 4",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/4_nepalesejournal4.pdf",
+                "description": "Journal 4 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 5",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/5_nepalesejournal5.pdf",
+                "description": "Journal 5 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 6",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/6_nepalesejournal6.pdf",
+                "description": "Journal 6 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 7",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/7_nepalesejournal7.pdf",
+                "description": "Journal 7 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 8",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/8_nepalesejournal8.pdf",
+                "description": "Journal 8 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 9",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/9_nepalesejournal9.pdf",
+                "description": "Journal 9 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 10",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/10_nepalesejournal10.pdf",
+                "description": "Journal 10 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 11",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/11_nepalesejournal11.pdf",
+                "description": "Journal 11 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 12",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/12_nepalesejournal12.pdf",
+                "description": "Journal 12 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 13",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/13_nepalesejournal13.pdf",
+                "description": "Journal 13 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 14",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/14_nepalesejournal14.pdf",
+                "description": "Journal 14 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 15",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/15_nepalesejournal15.pdf",
+                "description": "Journal 15 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 16",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/16_nepalesejournal16.pdf",
+                "description": "Journal 16 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 17",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/17_nepalesejournal17.pdf",
+                "description": "Journal 17 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 18",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/18_nepalesejournal18.pdf",
+                "description": "Journal 18 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 19",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/19_nepalesejournal19.pdf",
+                "description": "Journal 19 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 20",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/journals/20_nepalesejournal20.pdf",
+                "description": "Journal 20 is a journal that publishes research articles in the field of science."
+            }
+        ]
+    },
+    {
+        "type": "LMTC Journals",
+        "description": "Journals published by the Land Management and Training Center (LMTC) of Nepal.",
+        "list": [
+            {
+                "name": "Journal 2076",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/lmtc/lmtc-journal-2076.pdf",
+                "description": "Journal 2076 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 2077",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/lmtc/lmtc-Journal-2077.pdf",
+                "description": "Journal 2077 is a journal that publishes research articles in the field of science."
+            },
+            {
+                "name": "Journal 2078",
+                "url": "https://raw.githubusercontent.com/kaditya97/resources/ebc4287ab67f5edf1d50cea4cdefb8c58795820b/pdfs/lmtc/lmtc-journal-2078.pdf",
+                "description": "Journal 2078 is a journal that publishes research articles in the field of science."
+            }
+        ]
+    }
+]

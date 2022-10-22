@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { Offline, Online } from "react-detect-offline";
 import questionList from '../assets/jsons/questionList.json'
-import { Container, Button, IconButton, Alert } from '@mui/material'
+import { Container, Button, IconButton } from '@mui/material'
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import AddCircleOutlineOutlinedIcon from '@mui/icons-material/AddCircleOutlineOutlined';
 import RemoveCircleOutlineOutlinedIcon from '@mui/icons-material/RemoveCircleOutlineOutlined';
@@ -30,7 +30,10 @@ function SelectQuestions({ open, setOpen, mode, question }) {
   };
   const handleClick = () => {
     const questions = question.sort(() => .5 - Math.random()).slice(0, questionCount)
-    mode === "single" ? navigate('/singlequestion', { state: { question: questions } }) : navigate('/multiplequestions', { state: { question: questions } })
+    if(mode === "single") navigate('/singlequestion', { state: { question: questions } });
+    if(mode === "multiple") navigate('/multiplequestions', { state: { question: questions } });
+    if(mode === "guess") navigate('/guess', { state: { question: questions } });
+    if(mode === "handsfree") navigate('/handsfree', { state: { question: questions } });
   }
 
   return (

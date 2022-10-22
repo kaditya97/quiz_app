@@ -2,6 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Container, Button } from '@mui/material'
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import ImageApp from '../components/image';
 
 export default function Settings() {
     const navigate = useNavigate();
@@ -20,6 +21,7 @@ export default function Settings() {
                 <div className='body-content'>
                     <Button variant="contained" onClick={RemoveName}>Remove Name</Button>
                 </div>
+                <ImageApp />
             </Container>
         </>
     )
