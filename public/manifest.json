@@ -1,6 +1,6 @@
 {
-  "short_name": "Loksewa Quiz",
-  "name": "Simple Loksewa Quiz App",
+  "short_name": "Quiz",
+  "name": "Simple Quiz App",
   "icons": [
     {
       "src": "favicon.ico",

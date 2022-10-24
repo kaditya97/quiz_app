@@ -14,7 +14,7 @@ export default function Resources() {
         <h1 className='title-text'>Resources</h1>
         <h2 style={{ visibility: "hidden" }}>GoBack</h2>
       </div>
-      <div className="body-content">
+      <div className="">
         {ResourceList &&
           <Box sx={{ flexGrow: 1 }} className="box">
             <Grid container direction="row" rowSpacing={2} columnSpacing={{ xs: 1, sm: 2, md: 3 }} className="grid">

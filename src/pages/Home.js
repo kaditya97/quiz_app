@@ -3,9 +3,11 @@ import { useNavigate } from 'react-router-dom'
 import Logo from '../assets/images/logo.png';
 import SingleQuestionImage from '../assets/images/questions.jpeg'
 import MultiQuestionImage from '../assets/images/questions.jpg'
+import HandsfreeImage from '../assets/images/voice.jpg'
 import GuessImage from '../assets/images/guess.jpg'
 import ResourcesImage from '../assets/images/resource.jpg'
 import GamesImage from '../assets/images/game.png'
+import ToolsImage from '../assets/images/tools.jpg'
 import { Container, Box, Grid, Card, CardContent, CardMedia } from '@mui/material'
 import Avatar from '@mui/material/Avatar';
 import PersonIcon from '@mui/icons-material/Person';
@@ -64,7 +66,7 @@ export default function Home() {
                 <CardMedia
                   component="img"
                   height="140"
-                  image={MultiQuestionImage}
+                  image={HandsfreeImage}
                   alt="Handsfree"
                 />
                 <CardContent className='card-content'>
@@ -120,7 +122,7 @@ export default function Home() {
                 <CardMedia
                   component="img"
                   height="140"
-                  image={GamesImage}
+                  image={ToolsImage}
                   alt="tools"
                 />
                 <CardContent className='card-content'>
