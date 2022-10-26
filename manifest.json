@@ -1,6 +1,7 @@
 {
   "short_name": "Quiz",
   "name": "Simple Quiz App",
+  "categories": [ "education" ],
   "icons": [
     {
       "src": "favicon.ico",
