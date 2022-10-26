@@ -20,9 +20,14 @@
   ],
   "shortcuts" : [
     {
-      "name": "Today's agenda",
-      "url": "/#/calculator",
-      "description": "List of events planned for today"
+      "name": "Calculator",
+      "url": "/quiz_app/#/calculator",
+      "description": "Use Simple Calculator"
+    },
+    {
+      "name": "Napi Calculator",
+      "url": "/quiz_app/#/napicalculator",
+      "description": "Use Napi Calculator"
     }
   ],  
   "scope": "/",
