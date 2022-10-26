@@ -22,12 +22,26 @@
     {
       "name": "Calculator",
       "url": "/quiz_app/#/calculator",
-      "description": "Use Simple Calculator"
+      "description": "Use Simple Calculator",
+      "icons": [
+        {
+          "src": "favicon.ico",
+          "sizes": "64x64 32x32 24x24 16x16",
+          "type": "image/x-icon"
+        }
+      ]
     },
     {
       "name": "Napi Calculator",
       "url": "/quiz_app/#/napicalculator",
-      "description": "Use Napi Calculator"
+      "description": "Use Napi Calculator",
+      "icons": [
+        {
+          "src": "favicon.ico",
+          "sizes": "64x64 32x32 24x24 16x16",
+          "type": "image/x-icon"
+        }
+      ]
     }
   ],  
   "scope": "/",
