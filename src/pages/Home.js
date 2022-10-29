@@ -1,12 +1,12 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import Logo from '../assets/images/logo.png';
+import NotesImage from '../assets/images/analytics.png';
 import SingleQuestionImage from '../assets/images/questions.jpeg'
 import MultiQuestionImage from '../assets/images/questions.jpg'
 import HandsfreeImage from '../assets/images/voice.jpg'
 import GuessImage from '../assets/images/guess.jpg'
 import ResourcesImage from '../assets/images/resource.jpg'
-import GamesImage from '../assets/images/game.png'
 import ToolsImage from '../assets/images/tools.jpg'
 import { Container, Box, Grid, Card, CardContent, CardMedia } from '@mui/material'
 import Avatar from '@mui/material/Avatar';
@@ -33,6 +33,20 @@ export default function Home() {
       {name ?
         <Box sx={{ flexGrow: 1 }} className="box">
           <Grid container direction="row" rowSpacing={2} columnSpacing={{ xs: 1, sm: 2, md: 3 }} className="grid">
+            <Grid item xs={8} sm={4}>
+              <Card sx={{ maxWidth: 345 }} onClick={() => navigate('/notes')} className="card">
+                <CardMedia
+                  component="img"
+                  height="140"
+                  image={NotesImage}
+                  alt="Notes"
+                />
+                <CardContent className='card-content'>
+                  <h2>Notes</h2>
+                  <p>Write notes</p>
+                </CardContent>
+              </Card>
+            </Grid>
             <Grid item xs={8} sm={4}>
               <Card sx={{ maxWidth: 345 }} onClick={() => navigate('/questions', { state: { mode: "multiple" } })} className="card">
                 <CardMedia
@@ -100,20 +114,6 @@ export default function Home() {
                 <CardContent className='card-content'>
                   <h2>Resourse</h2>
                   <p>Read Resources</p>
-                </CardContent>
-              </Card>
-            </Grid>
-            <Grid item xs={8} sm={4}>
-              <Card sx={{ maxWidth: 345 }} onClick={() => navigate('/game', { state: { quizType: "e.name" } })} className="card">
-                <CardMedia
-                  component="img"
-                  height="140"
-                  image={GamesImage}
-                  alt="Games"
-                />
-                <CardContent className='card-content'>
-                  <h2>Games</h2>
-                  <p>Play Games</p>
                 </CardContent>
               </Card>
             </Grid>
